@@ -27,14 +27,14 @@ const CaptainLogin = () => {
         <form onSubmit={(e) => {
           submitHandler(e)
         }}>
-          <h2 className="text-lg font-medium mb-2">What's your email</h2>
+          <h2 className="text-lg font-medium mb-2">What's our captain's email</h2>
           <input
             required
             value ={email}
             onChange={(e) =>{
               setEmail((e.target.value))
             }}
-            className="bg-[#eeeeee] mb-7 rounded-lg px-4 py-2 border w-full text-lg placeholder:text-base"
+            className="bg-[#eeeeee] mb-7 rounded-lg px-4 py-2  w-full text-lg placeholder:text-base"
             type="email"
             placeholder="email@example.com"
           />
@@ -45,7 +45,7 @@ const CaptainLogin = () => {
             onChange={(e) =>{
               setPassword((e.target.value))
             }}
-            className="bg-[#eeeeee] mb-7 rounded-lg px-4 py-2 border w-full text-lg placeholder:text-base"
+            className="bg-[#eeeeee] mb-7 rounded-lg px-4 py-2  w-full text-lg placeholder:text-base"
             type="password"
             placeholder="password"
           />
