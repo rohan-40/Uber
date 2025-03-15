@@ -42,7 +42,7 @@ const UserSignup = () => {
   return (
     <div className="p-7 h-screen flex flex-col justify-between">
       <img
-        className="w-16 mb-10 "
+        className="w-16 mb-6 "
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Uber_logo_2018.svg/2560px-Uber_logo_2018.svg.png"
         alt=""
       />
@@ -111,7 +111,7 @@ const UserSignup = () => {
           </Link>
         </p>
       </div>
-      <div className="mt-auto">
+      <div className="mt-auto px-4">
       <p className='text-[10px] leading-tight'>This site is protected by reCAPTCHA and the <span className='underline'>Google Privacy
       Policy</span> and <span className='underline'>Terms of Service apply</span>.</p>
       </div>
